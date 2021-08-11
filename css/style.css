@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1350px;
+    margin: 0 auto;    
+}
+header{
+    height: 90px;
+    display:block;
+    background-color: aqua;
+    margin: 0 auto;justify-content: space-around;
+}
+#gra{
+    background-image: linear-gradient(#00d6f7, #017d91);
+  }
+.logo{
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+}
+.logo img{
+    height: 70%;
+    display:inline-block;
+    position: relative;
+    top: 18px ;
+    left: 70px;
+}
+header span{
+    display: inline-block;
+    font-weight: 800;
+    color: rgb(36, 36, 102);
+    font-size: 35px;padding-left: 70px;
+}
+
+
+nav{
+	width: 700px;
+    display: inline-block;
+    vertical-align: bottom;margin-left: 100px;
+}
+nav img{
+    max-width: 20px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0px 10px;
+    background:#007b9d ;
+}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    vertical-align: center;
+}
+nav ul li:hover{
+    background: deepskyblue;
+    cursor: pointer;
+}
+
+main{
+    width: 65%;background: burlywood;
+}
+.thke{
+    background: rgb(247, 221, 174);
+    margin-top: 10px;
+    text-align: center;
+    width: 900px;
+}
+.area{
+    border-radius: 5px;
+    padding: 1px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+.vn{
+    background: crimson;}
+.tg{
+    background: rgb(20, 113, 220);}
+
+.nhiem, .dtri, .khoi, .tvong{
+    display: inline-block;
+    padding: 5px 0;
+    width: 190px;
+}
+
+.nhiem{
+    color: crimson;
+}
+.dtri{
+    color: darkorange
+    ;
+}
+.khoi{
+    color: rgb(17, 187, 17);
+}
+.tvong{
+    color: rgb(77, 75, 75);
+}
+.so{
+    font-weight: bold;
+}
