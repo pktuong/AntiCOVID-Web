@@ -1,10 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    width: 1350px;
+    width: 1024px;
     margin: 0 auto;    
 }
 header{
-    height: 90px;
+    height: 110px;
     display:block;
     background-color: aqua;
     margin: 0 auto;justify-content: space-around;
@@ -13,27 +13,52 @@ header{
     background-image: linear-gradient(#00d6f7, #017d91);
   }
 .logo{
-    width: 400px;
-    height: 100%;
     display: inline-block;
+    width: 35%;
+    height: 78px;
 }
 .logo img{
-    height: 70%;
+    height: 50px;
     display:inline-block;
+    margin-top: -10px;
     position: relative;
-    top: 18px ;
-    left: 70px;
+    left: 70px;top: 15px;
 }
-header span{
+header a{
     display: inline-block;
     font-weight: 800;
     color: rgb(36, 36, 102);
-    font-size: 35px;padding-left: 70px;
+    font-size: 27px;padding-left: 70px;margin-top: 9px;
+    text-decoration: none;
 }
 
+#search {
+    width: 100%;padding-top: 10px;
+}
+#search form{margin-left: 70%;}
+#search input{
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#search button{
+    width: 20px;
+ 	height: 20px;
+    vertical-align: bottom;
+ 	display: inline-block;
+ 	cursor: pointer;
+ 	background: white;
+	border:none;
+	border-radius:10px;
+}
+button img{
+    max-width: 19px;
+    position: relative;
+    right: 5px;
+}
 
 nav{
-	width: 700px;
     display: inline-block;
     vertical-align: bottom;margin-left: 100px;
 }
@@ -49,7 +74,7 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
     color: #fff;
     vertical-align: center;
@@ -58,18 +83,21 @@ nav ul li:hover{
     background: deepskyblue;
     cursor: pointer;
 }
+#box, main{
+    padding: 0 20px;    
+    display: inline-block;
+}
 
 #box{
-    width: 900px;
-    display: inline-block;
+    width: 60%;
     text-align: center;
-    height: 100px;border-radius:5px;
-    font-size: 125%;
-    font-weight: bold;margin-left: 20px;
+    font-size: 90%;
+    font-weight: bold;
 }
 .thke{
     background: rgb(247, 221, 174);
-    margin-top: 10px;
+    margin-top: 5px;
+    border-radius:5px;
 }
 .area{
     border-radius: 5px;
@@ -87,8 +115,8 @@ nav ul li:hover{
 
 .nhiem, .dtri, .khoi, .tvong{
     display: inline-block;
-    padding: 5px 0;
-    width: 190px;padding-top: 20px;
+    padding: 10px 0;
+    width: 20%;
 }
 
 .nhiem{
@@ -107,18 +135,42 @@ nav ul li:hover{
 .so{
     font-weight: bold;
 }
-#slide{
+#slide, #sidebar{
     display: inline-block;
-    padding-left: 50px;padding-top: ;
+    width: 25%;
 }
-#slide, #slide img{
-    width: 350px;
+#slide img{
+    width:100%;
 }
 marquee{
-    width: 95%;display: block;
+    width: 95%;
+    display: block;
     margin:0 auto;
     font-size: 25px;
     color: rgb(255, 6, 6);
     font-weight: bold;
     padding: 10px 0;
+}
+
+main{
+    width: 70%;
+    ackground-color: olivedrab;
+}
+#sidebar{
+    vertical-align: top; ackground-color: palevioletred;
+}
+.title{
+    border-left: navy 4px solid;display: block;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+#dbien .thtin{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+    padding: 5px 0;
+}
+.thtin p{
+    background-color: rgba(206, 206, 206, 0.356);
+    padding: 20px;
 }
