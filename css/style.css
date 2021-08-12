@@ -39,7 +39,7 @@ header a{
 #search input{
     border: none;
     border-radius: 10px;
-    
+    outline:none;
 }
 
 #search button{
@@ -159,6 +159,7 @@ main{
 #sidebar{
     vertical-align: top; ackground-color: palevioletred;
 }
+
 .title{
     border-left: navy 4px solid;display: block;
     padding: 2px 5px;
@@ -168,9 +169,34 @@ main{
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 400px;
-    padding: 5px 0;
+    padding: 10px 0;
+    margin-left: 20px;
 }
 .thtin p{
     background-color: rgba(206, 206, 206, 0.356);
     padding: 20px;
+}
+
+#tintuc, #dbien, #video{
+    margin-top: 10px;
+}
+
+.tin{
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.tin img{
+    height: 100px;
+    overflow: hidden;
+}
+.tin a, .tin img{
+    padding-left: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 90%;
+    text-decoration: none;
+    width: 80%;
+    font-weight: bold;
 }
