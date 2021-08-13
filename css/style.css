@@ -16,7 +16,7 @@ header{
 .logo{
     display: inline-block;
     width: 35%;
-    height: 78px;
+    height: 80px;
 }
 .logo img{
     height: 50px;
@@ -72,7 +72,7 @@ nav img{
 nav ul{
 	margin: 0;
 	padding: 0px 10px;
-    background:#007b9d ;
+    background:#0b579e91 ;
 }
 nav ul li{
 	display: inline-block;
@@ -82,7 +82,7 @@ nav ul li{
     color: #fff;
 }
 nav ul li:hover{
-    background: deepskyblue;
+    background: #6db2f3da;
     cursor: pointer;
 }
 #box, main{
@@ -189,7 +189,7 @@ main{
     margin-top: 10px;
 }
 .tin img{
-    height: 100px;
+    height: 120px;
     overflow: hidden;
 }
 .tin a, .tin img{
@@ -198,7 +198,7 @@ main{
     margin: 0 auto;
     font-size: 90%;
     text-decoration: none;
-    width: 80%;
+    width: 90%;
     font-weight: bold;
 }
 .tin .day{
