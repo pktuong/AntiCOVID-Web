@@ -6,17 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="x3nryv8W"></script>
 </head>
 
 <body>
   <header id="gra">
 
-    <div id="search">
-      <form action="">
-        <input type="text" placeholder=" Nhập từ khóa..." name="search">
-        <button><img src="img/button.png"></button>
-    </form>
+    </div>-->
+    <div class="search">
+      <div>
+        <input type="text" placeholder="Search . . ." required>
+      </div>
     </div>
 
     <div class="logo">
@@ -24,62 +25,82 @@
     <a href="index.html">AntiCOVID</a>
     </div>
     
-    <nav>
-      <ul>
-        <li><img src="img/home.png" ></li>
-        <li>TIN TỨC</li>
-        <li>PHÒNG CHỐNG DỊCH BỆNH</li>
-        <li>TRA CỨU</li>
-        <li>LIÊN HỆ</li>
-      </ul>
-    </nav>
+    
 
-  </header>  
+  </header> 
+  <nav>
+    <ul>
+      <li><a href="#"><img src="img/home.png" ></a></li>
+      <li><a href="#"> TIN TỨC</a></li>
+      <li><a href="#"> PHÒNG CHỐNG DỊCH </a></li>
+      <li><a href="#"> TRA CỨU</a></li>
+      <li><a href="#"> ỦNG HỘ</a></li>
+      <li><div class="dropdown">
+        <a class="dropbtn">KHÁC <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="#">HỎI - ĐÁP</a>
+          <a href="#">GÓP Ý</a>
+          <a href="#">LIÊN HỆ</a>
+        </div>
+   </li>
+    </ul>
+  </nav>
+   
      
     <div id="box">
+      <div class="thke">
+        <span class="area vn">VIỆT NAM</span>
+        <div class="nhiem">
+          SỐ CA NHIỄM <br>
+          <span class="so">205.656</span>
+        </div>
+        <div class="dtri">        
+          ĐANG ĐIỀU TRỊ <br>
+          <span class="so">135.784</span>
+        </div>
+        <div class="khoi">
+          KHỎI<br>
+          <span class="so">66.637</span>
+        </div>
+        <div class="tvong">
+          TỬ VONG<br>
+          <span class="so">3.231</span>
+        </div>
+      </div>
 
-    <div class="thke">
-      <span class="area vn">VIỆT NAM</span>
-      <div class="nhiem">
-        SỐ CA NHIỄM <br>
-        <span class="so">205.656</span>
-      </div>
-      <div class="dtri">        
-        ĐANG ĐIỀU TRỊ <br>
-        <span class="so">135.784</span>
-      </div>
-      <div class="khoi">
-        KHỎI<br>
-        <span class="so">66.637</span>
-      </div>
-      <div class="tvong">
-        TỬ VONG<br>
-        <span class="so">3.231</span>
-      </div>
-    </div>
-
-    <div class="thke">  
-      <span class="area tg">THẾ GIỚI</span>
-      <div class="nhiem">
-        TỔNG CA NHIỄM <br>
-        <span class="so">202.952.988</span>
-      </div>
-      <div class="dtri">        
-        ĐANG NHIỄM<br>
-        <span class="so">16.358.982</span>
-      </div>
-      <div class="khoi">
-        KHỎI<br>
-        <span class="so">182.294.738</span>
-      </div>
-      <div class="tvong">
-        TỬ VONG<br>
-        <span class="so">4.299.268</span>
-      </div>
+      <div class="thke">  
+        <span class="area tg">THẾ GIỚI</span>
+        <div class="nhiem">
+          TỔNG CA NHIỄM <br>
+          <span class="so">202.952.988</span>
+        </div>
+        <div class="dtri">        
+          ĐANG NHIỄM<br>
+          <span class="so">16.358.982</span>
+        </div>
+        <div class="khoi">
+          KHỎI<br>
+          <span class="so">182.294.738</span>
+        </div>
+        <div class="tvong">
+          TỬ VONG<br>
+          <span class="so">4.299.268</span>
+        </div>
       </div>
     </div>
     
-    <div id="slide"><img src="img/slide/slide5.png" alt=""></div>
+    <div id="slider">
+      <div id="stage">
+        <div id="shape" class="ring backfaces">
+          <img class="plane item-1" src="img/slide/slide1.png">
+          <img class="plane item-2" src="img/slide/slide2.png">
+          <img class="plane item-3" src="img/slide/slide3.png">
+          <img class="plane item-4" src="img/slide/slide4.png">
+          <img class="plane item-5" src="img/slide/slide5.png">
+          <img class="plane item-6" src="img/slide/slide6.png">
+        </div>
+      </div>
+    </div>
 
     <marquee scrollamount="10">Thực hiện "5K: Khẩu trang – Khử khuẩn – Khoảng cách – Không tập trung – Khai báo y tế" để giữ an toàn cho Bạn và Chúng ta trước đại dịch COVID-19!</marquee>
 
@@ -157,10 +178,49 @@
   </main>
 
   <div id="sidebar">
-    <div id="video">
       <span class="title">VIDEO</span>
+    <div id="video">
+        <iframe width="80%" src="https://www.youtube.com/embed/N__MIp5KA38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        <div class="title-video justify">5 ĐIỂM CẦN LÀM TỐT ĐỂ PHÒNG CHỐNG COVID-19</div>
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/cXwLwWoWXXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="title-video justify">VỚI CHỦNG DELTA, CÁC TRIỆU CHỨNG THƯỜNG GẶP KHI NHIỄM COVID-19?</div>
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/A4eXn59IuQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="title-video justify">HƯỚNG DẪN SỬ DỤNG KHẨU TRANG ĐÚNG ĐỂ PHÒNG CHỐNG DỊCH COVID-19</div>
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/WCNvWBN8dUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="title-video" justify>NHỮNG LƯU Ý TRƯỚC VÀ SAU TIÊM VẮC-XIN COVID-19</div>
+    
     </div>
   </div>
+  <footer>
+    <div id="fb-p">
+      <div class="fb-page" data-href="https://www.facebook.com/Fanpage-tin-t&#x1ee9;c-1308-105704135152694/" data-tabs="events" data-width="280px" data-height="150px" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Fanpage-tin-t&#x1ee9;c-1308-105704135152694/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Fanpage-tin-t&#x1ee9;c-1308-105704135152694/">Fanpage tin tức 1308</a></blockquote></div>
+    </div>
+    <div id="tacgia">
+      <a>Tác giả</a>
+      <hr>
+      <div class="svth">
+        <p>Trần Hoàng Quân <br>
+        MSV:2050531200258 <br>
+        Lớp: 20T2<br>
+        Phone:0796517105<br>
+        Email:
+        </p>
+      </div>
+      <div class="svth">
+        <p>Phạm Khắc Tưởng<br>
+        MSV:2050531200328 <br>
+        Lớp: 20T3<br>
+        Phone: 0962367144<br>
+        Email: tuongdang297@gmail.com
+        </p>
+      </div>
+    </div>
+  </footer>
+ 
+  <div id="call" >										
+    <a href="tel:0796517105"><img src="https://img.icons8.com/color/48/000000/whatsapp--v4.png"/></a>
+  </div>
+  
 <a href="#" class="back2top">^</a>
 
 
